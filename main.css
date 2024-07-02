@@ -7,6 +7,38 @@
     position: relative;
     top: 10px;
     justify-content: right;
-    right: 70px;
+    right: 232px;
     gap: 10px;
+}
+header{
+    display: flex;
+    position: relative;
+    top: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+#main-logo{
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+#search-bar{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#user-menu{
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    align-items: center;
+    gap: 60px;
+    right: 120px;
+}
+#category{
+    display: flex;
+    position: relative;
+    top: 65px;
+    justify-content: space-evenly;
 }
