@@ -6,12 +6,13 @@
     padding: 0px;
     margin: 0px;
     font-family: 'Pretendard-Regular';
+    box-sizing: border-box;
 }
 #log-in{
     display: flex;
     position: relative;
     top: 10px;
-    justify-content: right;
+    justify-content: flex-end;
     right: 232px;
     gap: 10px;
     font-size: 15px;
@@ -52,6 +53,8 @@ header{
 #category-items{
     display: flex;
     justify-content: space-evenly;
+    margin-left: 35px;
+    margin-right: 100px;
 }
 #category p{
     color: #575757;
@@ -64,6 +67,65 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-.line{
-    border-bottom: 1px solid #D9D9D9;
+#book-type{
+    display: flex;
+    width: 155px;
+    flex-wrap: wrap;
+}
+.type-list{
+    position: relative;
+    top: 30px;
+    width: 155px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-bottom: solid 0.7px hotpink;
+    color: hotpink;
+    font-weight: 600;
+}
+.selected{
+    height: 75px;
+    font-size: 30px;
+    font-weight: 800;
+}
+#title-text{
+    position: relative;
+    top: 50px;
+    left: 5vw;
+}
+.maemul{
+    height: 215px;
+    width: 188px;
+    border: 2px solid hotpink;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.img{
+    height: 50%;
+    background-color: #D9D9D9;
+}
+.text-descript{
+    margin: 20px;
+}
+.maemul-name{
+    font-size: 17px;
+    width: 160px;
+    height: 45px;
+    overflow: visible;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.maemul-price{
+    font-size: 20px;
+    font-weight: 800;
+    color: #E72D6C;
+}
+.upload-time{
+    position: relative;
+    font-weight: 500;
+    color: #000;
+    opacity: 0.27;
+    font-size: 11px;
+    top: -15px;
+    left: 115px;
 }

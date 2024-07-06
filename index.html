@@ -6,6 +6,8 @@
     <title>디미플리</title>
     <link rel="stylesheet" href="main.css">
 </head>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript" src="mint.js"></script>
 <body>
     <div id="log-in">
         <p>로그인</p>
@@ -48,26 +50,111 @@
     <hr style="border: none; height: 3px; margin-top: 86px; background-color: #E6E6E6;">
     <div class="container">
         <div id="book-type">
-            <table border="0" width="150">
-                <tr>
-                    <td class="line">책</td>
-                </tr>
-                <tr>
-                    <td class="line">문제집</td>
-                </tr>
-                <tr>
-                    <td class="line">교과서</td>
-                </tr>
-                <tr>
-                    <td class="line">국내도서</td>
-                </tr>
-                <tr>
-                    <td class="line">해외도서</td>
-                </tr>
-            </table>
+            <div class="type-list selected">
+                책
+            </div>
+            <div class="type-list">
+                문제집
+            </div>
+            <div class="type-list">
+                교과서
+            </div>
+            <div class="type-list">
+                국내도서
+            </div>
+            <div class="type-list">
+                해외도서
+            </div>
         </div>
         <div id="recent-maemul">
-            <h2>최근 올라온 매물</h2>
+            <h2 id="title-text">최근 올라온 매물</h2>
+            <div id="maemuls">
+                <div class="maemul">
+                    <div class="img">
+                    </div>
+                    <div class="text-descript">
+                        <div class="maemul-name">
+                            마플시너지 수(상) + 수(하) 세트
+                        </div>
+                        <div class="maemul-details">
+                            <div class="maemul-price">
+                                30,000원
+                            </div>
+                            <div class="upload-time">
+                                3초 전
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maemul">
+                    <div class="img">
+                    </div>
+                    <div class="text-descript">
+                        <div class="maemul-name">
+                            현우진 뉴런 수1 팝니다
+                        </div>
+                        <div class="maemul-details">
+                            <div class="maemul-price">
+                                30,000원
+                            </div>
+                            <div class="upload-time">
+                                    10분 전
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maemul">
+                    <div class="img">
+                    </div>
+                    <div class="text-descript">
+                        <div class="maemul-name">
+                            자서전(?) 팔아요
+                        </div>
+                        <div class="maemul-details">
+                            <div class="maemul-price">
+                                30,000원
+                            </div>
+                            <div class="upload-time">
+                                30분 전
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maemul">
+                    <div class="img">
+                    </div>
+                    <div class="text-descript">
+                        <div class="maemul-name">
+                            마플시너지 수(상) + 수(하) 세트
+                        </div>
+                        <div class="maemul-details">
+                            <div class="maemul-price">
+                                30,000원
+                            </div>
+                            <div class="upload-time">
+                                3초 전
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="maemul">
+                    <div class="img">
+                    </div>
+                    <div class="text-descript">
+                        <div class="maemul-name">
+                            마플시너지 수(상) + 수(하) 세트
+                        </div>
+                        <div class="maemul-details">
+                            <div class="maemul-price">
+                                30,000원
+                            </div>
+                            <div class="upload-time">
+                                3초 전
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
