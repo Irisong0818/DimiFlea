@@ -67,12 +67,8 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
-#book-type{
-    display: flex;
-    width: 155px;
-    flex-wrap: wrap;
-}
 .type-list{
+    cursor : pointer;
     position: relative;
     top: 30px;
     width: 155px;
@@ -92,27 +88,29 @@ header{
     position: relative;
     top: 50px;
     left: 5vw;
+    flex-wrap: wrap;
 }
 .maemul{
     height: 215px;
-    width: 188px;
-    border: 2px solid hotpink;
+    width: 186px;
+    border: 1.5px solid #E72D6C;
     border-radius: 20px;
     overflow: hidden;
 }
 .img{
     height: 50%;
-    background-color: #D9D9D9;
+    background-color: #b5b0b08a;
+    border-bottom: 1.5px solid #E72D6C;
 }
 .text-descript{
-    margin: 20px;
+    margin: 18px;
 }
 .maemul-name{
     font-size: 17px;
     width: 160px;
     height: 45px;
     overflow: visible;
-    font-weight: 600;
+    font-weight:600;
     margin-bottom: 5px;
 }
 .maemul-price{
@@ -128,4 +126,11 @@ header{
     font-size: 11px;
     top: -15px;
     left: 115px;
+}
+.maemuls{
+    display: grid;
+    grid-template-columns: 184px 184px 184px 184px;
+    /* grid-template-rows: 215px 215px 215px; */
+    margin: 85px;
+    gap: 25px;
 }
