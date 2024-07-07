@@ -70,13 +70,13 @@ header{
 .type-list{
     cursor : pointer;
     position: relative;
-    top: 30px;
+    top: 33px;
     width: 155px;
     display: flex;
     align-items: center;
     height: 50px;
-    border-bottom: solid 0.7px hotpink;
-    color: hotpink;
+    border-bottom: solid 0.7px #E72D6C;
+    color: #E72D6C;
     font-weight: 600;
 }
 .selected{
@@ -85,8 +85,12 @@ header{
     font-weight: 800;
 }
 #title-text{
+    font-size: 27px;
+    font-weight: bold;
+    color: #000;
+    opacity: 0.65;                          
     position: relative;
-    top: 50px;
+    top: 54px;
     left: 5vw;
     flex-wrap: wrap;
 }
