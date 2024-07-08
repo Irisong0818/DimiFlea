@@ -55,6 +55,7 @@ header{
     justify-content: space-evenly;
     margin-left: 35px;
     margin-right: 100px;
+    cursor: pointer;
 }
 #category p{
     color: #575757;
@@ -137,4 +138,11 @@ header{
     /* grid-template-rows: 215px 215px 215px; */
     margin: 85px;
     gap: 25px;
+}
+.category-selected{
+    position: relative;
+    color:#E72D6C !important;
+    border-bottom: 3px solid #E72D6C;
+    padding-bottom: 20px;
+    z-index: 2;
 }
